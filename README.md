@@ -20,7 +20,7 @@ It does whatever you want it to do. It's a very simple **template**, designed to
 
 ### Variables
 
-If you just need to get pull some data into your template, or want to run a quick process before handing an array (or string, or whatever) back to your template, then variables might be the way to go!
+If you just need to pull some data into your template, or want to run a quick process before handing an array (or string, or whatever) back to your template, then variables might be the way to go!
 
 ### Controllers
 
