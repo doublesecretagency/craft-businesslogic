@@ -44,6 +44,8 @@ Think this template can be improved? Go ahead and fork it! Pull requests are wel
  - Only the basic needs of business logic need to be met... If a developer requires something more complex, it's assumed that they are capable enough to add those features.
  - Documentation is important! The components of this plugin should explain what they do, so any Craft noob can figure out how to shove some quick PHP in there and be on their merry way.
 
+Don't want to fork, but still want to make a suggestion? Feel free to leave your comments on [this "General Discussion" thread...](https://github.com/lindseydiloreto/craft-businesslogic/issues/1)
+
 ***
 
 Thanks for checking it out! And feel free to also grab [our favorite plugin of all time...](https://github.com/mattstauffer/happybrad)
