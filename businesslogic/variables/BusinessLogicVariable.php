@@ -40,5 +40,5 @@ class BusinessLogicVariable
 	{
 		return "And away we go to the Twig template...";
 	}
-	
+
 }
