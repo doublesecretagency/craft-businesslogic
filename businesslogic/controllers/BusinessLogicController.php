@@ -23,6 +23,18 @@ class BusinessLogicController extends BaseController
 {
 
 	/**
+	 * By default, access to controllers is restricted to logged-in users.
+	 * However, you can allow anonymous access by uncommenting the line below.
+	 *
+	 * It is also possible to allow anonymous access to only certain methods,
+	 * by supplying an array of method names, rather than a boolean value.
+	 *
+	 * See also:
+	 * http://buildwithcraft.com/docs/plugins/controllers#allowing-anonymous-access-to-actions
+	 */
+	// protected $allowAnonymous = true;
+
+	/**
 	 * For a normal form submission, send it here.
 	 *
 	 * HOW TO USE IT
