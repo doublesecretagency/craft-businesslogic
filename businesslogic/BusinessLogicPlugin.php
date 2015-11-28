@@ -9,9 +9,24 @@ class BusinessLogicPlugin extends BasePlugin
 		return 'Business Logic for '.craft()->getSiteName();
 	}
 
+	public function getDescription()
+	{
+		return 'Custom business logic for this unique website.';
+	}
+
+	public function getDocumentationUrl()
+	{
+		return 'https://github.com/lindseydiloreto/craft-businesslogic';
+	}
+
 	public function getVersion()
 	{
 		return '¯\_(ツ)_/¯';
+	}
+
+	public function getSchemaVersion()
+	{
+		return null;
 	}
 
 	public function getDeveloper()
