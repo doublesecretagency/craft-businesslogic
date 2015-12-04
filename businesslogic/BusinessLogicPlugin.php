@@ -26,7 +26,7 @@ class BusinessLogicPlugin extends BasePlugin
 
 	public function getSchemaVersion()
 	{
-		return null;
+		return '0.0.0';
 	}
 
 	public function getDeveloper()
