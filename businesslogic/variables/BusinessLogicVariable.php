@@ -3,7 +3,7 @@ namespace Craft;
 
 /**
  * OFFICIAL DOCUMENTATION:
- * http://buildwithcraft.com/docs/plugins/variables
+ * https://craftcms.com/docs/plugins/variables
  */
 
 /**

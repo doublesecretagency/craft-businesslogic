@@ -3,7 +3,7 @@ namespace Craft;
 
 /**
  * OFFICIAL DOCUMENTATION:
- * http://buildwithcraft.com/docs/plugins/controllers
+ * https://craftcms.com/docs/plugins/controllers
  */
 
 /**
@@ -30,7 +30,7 @@ class BusinessLogicController extends BaseController
 	 * by supplying an array of method names, rather than a boolean value.
 	 *
 	 * See also:
-	 * http://buildwithcraft.com/docs/plugins/controllers#allowing-anonymous-access-to-actions
+	 * https://craftcms.com/docs/plugins/controllers#allowing-anonymous-access-to-actions
 	 */
 	// protected $allowAnonymous = true;
 
