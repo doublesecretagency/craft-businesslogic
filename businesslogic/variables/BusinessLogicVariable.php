@@ -23,7 +23,7 @@ class BusinessLogicVariable
 {
 
 	/**
-	 * Whatever you want to output to a Twig tempate
+	 * Whatever you want to output to a Twig template
 	 * can go into a Variable method.
 	 *
 	 * HOW TO USE IT
