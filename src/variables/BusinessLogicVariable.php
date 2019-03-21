@@ -1,9 +1,10 @@
 <?php
-namespace Craft;
+namespace modules\businesslogic\variables;
 
 /**
- * OFFICIAL DOCUMENTATION:
- * https://craftcms.com/docs/plugins/variables
+ * More info about Variables...
+ *
+ * https://doublesecretagency.github.io/craft-businesslogic/variables
  */
 
 /**
@@ -22,23 +23,23 @@ namespace Craft;
 class BusinessLogicVariable
 {
 
-	/**
-	 * Whatever you want to output to a Twig template
-	 * can go into a Variable method.
-	 *
-	 * HOW TO USE IT
-	 * From any Twig template, call it like this:
-	 *
-	 *     {{ craft.businessLogic.exampleVariable }}
-	 *
-	 * Or, if your variable requires input from Twig:
-	 *
-	 *     {{ craft.businessLogic.exampleVariable(twigValue) }}
-	 *
-	 */
-	public function exampleVariable($optional = null)
-	{
-		return "And away we go to the Twig template...";
-	}
+    /**
+     * Whatever you want to output to a Twig template
+     * can go into a Variable method.
+     *
+     * HOW TO USE IT
+     * From any Twig template, call it like this:
+     *
+     *     {{ craft.businessLogic.exampleVariable }}
+     *
+     * Or, if your variable requires input from Twig:
+     *
+     *     {{ craft.businessLogic.exampleVariable(twigValue) }}
+     *
+     */
+    public function exampleVariable($optional = null)
+    {
+        return "And away we go to the Twig template...";
+    }
 
 }

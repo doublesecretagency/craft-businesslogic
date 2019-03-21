@@ -1,9 +1,12 @@
 <?php
-namespace Craft;
+namespace modules\businesslogic\services;
+
+use craft\base\Component;
 
 /**
- * OFFICIAL DOCUMENTATION:
- * https://craftcms.com/docs/plugins/services
+ * More info about Services...
+ *
+ * https://doublesecretagency.github.io/craft-businesslogic/services
  */
 
 /**
@@ -14,7 +17,7 @@ namespace Craft;
  *
  *     1. Your logic is super complex.
  *     2. You need to interact with the database.
- *     3. You want to call your service from some other plugin.
+ *     3. You want to call your service from some other plugin or module.
  *
  * If you find yourself needing to tap into the database for whatever reason, that logic
  * belongs here. Whether you're approaching the database with a custom Record (not included),
@@ -23,21 +26,21 @@ namespace Craft;
  * Your service methods can literally be anything you want them to be. Go nuts!
  */
 
-class BusinessLogicService extends BaseApplicationComponent
+class Example extends Component
 {
 
-	/**
-	 * This function can literally be anything you want.
-	 *
-	 * HOW TO USE IT
-	 * From any other plugin file, call it like this:
-	 *
-	 *     craft()->businessLogic->exampleService()
-	 *
-	 */
-	public function exampleService()
-	{
-		return "I've got your data right here!";
-	}
+    /**
+     * This function can literally be anything you want.
+     *
+     * HOW TO USE IT
+     * From any other plugin or module file, call it like this:
+     *
+     *     BusinessLogic::$instance->example->exampleService()
+     *
+     */
+    public function exampleService()
+    {
+        return "I've got your data right here!";
+    }
 
 }
