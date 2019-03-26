@@ -1,4 +1,8 @@
-# Business Logic ~~plugin~~ module template for Craft CMS
+**Want to learn how modules work?** Check out the [complete documentation...](https://doublesecretagency.github.io/craft-businesslogic)
+
+---
+
+# Business Logic module template for Craft CMS
 
 _It's a module about nothing..._
 
