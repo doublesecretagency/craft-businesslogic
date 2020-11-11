@@ -33,15 +33,13 @@ class BusinessLogic extends Module
         // Set alias for this module
         Craft::setAlias('@businesslogic', __DIR__);
 
-        // Set the controllerNamespace based on whether this is a console or web request
-        if (Craft::$app->getRequest()->getIsConsoleRequest()) {
-            $this->controllerNamespace = 'businesslogic\\console\\controllers';
-        } else {
-            $this->controllerNamespace = 'businesslogic\\controllers';
-        }
-
         // Run parent init
         parent::init();
+
+        // Adjust controller namespace for console requests
+        if (Craft::$app->getRequest()->getIsConsoleRequest()) {
+            $this->controllerNamespace = 'businesslogic\\console\\controllers';
+        }
 
         // Register services
         $this->setComponents([
