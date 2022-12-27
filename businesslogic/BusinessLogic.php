@@ -38,7 +38,7 @@ class BusinessLogic extends Module
 
         // Adjust controller namespace for console requests
         if (Craft::$app->getRequest()->getIsConsoleRequest()) {
-            $this->controllerNamespace = 'businesslogic\\console\\controllers';
+            $this->controllerNamespace = 'modules\\businesslogic\\console\\controllers';
         }
 
         // Register services

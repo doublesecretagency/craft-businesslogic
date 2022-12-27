@@ -26,6 +26,10 @@ Similarly, you can handle data submitted via an AJAX call. It's possible for you
 
 Occasionally, you may want to trigger some fancy behavior while navigating between two pages on the front-end. It's possible to route directly to a controller action, perform some custom PHP behavior, then continue on (or be redirected) to your final destination. If the route logic does not redirect to another URL, it can end by rendering a Twig template with some newly-declared variable values.
 
+## Console controllers
+
+Console controllers allow you to trigger controller actions via your own custom Craft console commands, for things like scheduled tasks run by CRON. They work in a similar way to web controllers but live in `console/controllers` and are run via command line, e.g. `./craft businesslogic/example-console/example`.
+
 ---
 
 ## Anonymous requests
